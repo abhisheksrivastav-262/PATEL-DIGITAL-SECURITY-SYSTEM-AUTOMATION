@@ -34,7 +34,7 @@ export default function Projects() {
           ))}
         </div>
 
-        <p className="text-center text-xs text-slate-500 mt-8">Images are high-quality placeholders. Replace with your actual project photos in <code className="text-slate-300">/assets/images/projects/</code>.</p>
+
       </section>
 
       {lightbox && (

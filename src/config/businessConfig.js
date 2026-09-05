@@ -63,23 +63,23 @@ export const services = [
 ];
 
 export const products = [
-  { category: "CCTV Cameras", desc: "Dome, bullet & PTZ cameras — HD to 4K with intelligent IR.", image: "https://images.unsplash.com/photo-1558002038-1055907df827?w=600&q=80" },
-  { category: "IP Cameras", desc: "PoE IP cameras with AI detection & cloud-ready NVR.", image: "https://images.unsplash.com/photo-1498049794561-7780e7231661?w=600&q=80" },
-  { category: "NVR / DVR Systems", desc: "4CH to 64CH recorders with H.265+ & remote access.", image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&q=80" },
-  { category: "Networking Equipment", desc: "Switches, routers, racks & structured cabling solutions.", image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&q=80" },
-  { category: "Wi-Fi Solutions", desc: "Mesh, enterprise APs & long-range outdoor wireless.", image: "https://images.unsplash.com/photo-1545987796-200677ee1011?w=600&q=80" },
-  { category: "Video Door Phones", desc: "Wired & Wi-Fi VDP with mobile app integration.", image: "https://images.unsplash.com/photo-1558000143-a42f1ea4d0d3?w=600&q=80" },
-  { category: "Access Control", desc: "Card, PIN & QR-based door & gate automation.", image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80" },
-  { category: "Biometric Systems", desc: "Fingerprint & face recognition attendance & access.", image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=80" },
-  { category: "Smart Home Devices", desc: "Smart switches, sensors, locks & voice control.", image: "https://images.unsplash.com/photo-1558002038-1055907df827?w=600&q=80" },
-  { category: "Automation Systems", desc: "KNX, Zigbee & Wi-Fi based building automation.", image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=80" },
+  { category: "CCTV Cameras", desc: "Dome, bullet & PTZ cameras — HD to 4K with intelligent IR night vision.", image: "/image/c.png" },
+  { category: "IP Cameras", desc: "PoE IP cameras with AI detection & cloud-ready NVR integration.", image: "/image/c1.png" },
+  { category: "NVR / DVR Systems", desc: "4CH to 64CH recorders with H.265+ compression & remote access.", image: "/image/c2.png" },
+  { category: "Networking Equipment", desc: "Switches, routers, racks & structured cabling solutions.", image: "/image/c3.png" },
+  { category: "Wi-Fi Solutions", desc: "Mesh, enterprise APs & long-range outdoor wireless connectivity.", image: "/image/c4.png" },
+  { category: "Video Door Phones", desc: "Wired & Wi-Fi VDP with HD display & mobile app integration.", image: "/image/c5.png" },
+  { category: "Access Control", desc: "Card, PIN & QR-based door & gate access automation.", image: "/image/c6.png" },
+  { category: "Biometric Systems", desc: "Fingerprint & face recognition for attendance & access control.", image: "/image/c7.png" },
+  { category: "Smart Home Devices", desc: "Smart switches, sensors, locks & voice control systems.", image: "/image/c8.png" },
+  { category: "Automation Systems", desc: "KNX, Zigbee & Wi-Fi based building & home automation.", image: "/image/c9.png" },
 ];
 
 export const projects = [
-  { title: "Corporate Office Surveillance", category: "CCTV Installation", location: "SG Highway, Ahmedabad", image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80" },
-  { title: "Luxury Villa Smart Home", category: "Automation", location: "Bopal, Ahmedabad", image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80" },
-  { title: "Warehouse Networking Infra", category: "Networking", location: "Kathwada GIDC", image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80" },
-  { title: "Society Access Control", category: "Access Control", location: "South Bopal", image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80" },
-  { title: "Retail Chain CCTV Rollout", category: "CCTV Installation", location: "Gujarat – 12 Stores", image: "https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=800&q=80" },
-  { title: "3BHK Home Automation", category: "Smart Home", location: "Prahlad Nagar", image: "https://images.unsplash.com/photo-1558002038-1055907df827?w=800&q=80" },
+  { title: "CCTV & Security Installation", category: "CCTV Installation", location: "Ahmedabad, Gujarat", image: "/image/d.png" },
+  { title: "Security System Project", category: "Office Security", location: "SG Highway, Ahmedabad", image: "/image/d1.png" },
+  { title: "Networking & Infrastructure", category: "Networking", location: "Kathwada GIDC, Ahmedabad", image: "/image/d2.png" },
+  { title: "Access Control Solution", category: "Access Control", location: "South Bopal, Ahmedabad", image: "/image/d3.png" },
+  { title: "Residential Security Setup", category: "CCTV Installation", location: "Prahlad Nagar, Ahmedabad", image: "/image/d4.png" },
+  { title: "Automation Installation", category: "Automation", location: "Bopal, Ahmedabad", image: "/image/d5.png" },
 ];

@@ -150,14 +150,20 @@ export default function Home() {
 
           <div className="mt-10 grid grid-cols-1 lg:grid-cols-3 gap-6">
             {[
-              { title: 'CCTV & Surveillance', img: 'https://images.unsplash.com/photo-1558002038-1055907df827?w=700&q=80', points: ['4K & HD clarity', 'Night vision & remote view', 'Professional cabling & setup'] },
-              { title: 'Networking & Wi-Fi', img: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=700&q=80', points: ['Structured cabling', 'Enterprise Wi-Fi & mesh', 'Rack, switch & firewall'] },
-              { title: 'Access Control', img: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=700&q=80', points: ['Biometric & card', 'Door, gate & lift control', 'Attendance integration'] },
+              { title: 'CCTV & Surveillance', img: '/image/a.png', points: ['4K & HD clarity', 'Night vision & remote view', 'Professional cabling & setup'] },
+              { title: 'Networking & Wi-Fi', img: '/image/a1.png', points: ['Structured cabling', 'Enterprise Wi-Fi & mesh', 'Rack, switch & firewall'] },
+              { title: 'Access Control', img: '/image/a2.png', points: ['Biometric & card', 'Door, gate & lift control', 'Attendance integration'] },
             ].map(card=>(
               <div key={card.title} className="rounded-[20px] overflow-hidden border border-slate-200 bg-slate-50 group">
-                <div className="h-[220px] overflow-hidden relative">
-                  <img src={card.img} alt={card.title} className="w-full h-full object-cover group-hover:scale-105 transition duration-700" />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+                {/* aspect-ratio container keeps full image visible at every breakpoint */}
+                <div className="relative w-full" style={{aspectRatio:'4/3'}}>
+                  <img
+                    src={card.img}
+                    alt={card.title}
+                    className="absolute inset-0 w-full h-full object-contain object-center group-hover:scale-[1.03] transition duration-700"
+                    style={{padding:'12px', boxSizing:'border-box', background:'#f1f5f9'}}
+                  />
+                  <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black/20 to-transparent pointer-events-none" />
                 </div>
                 <div className="p-6">
                   <h3 className="font-black text-lg">{card.title}</h3>
