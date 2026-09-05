@@ -6,7 +6,7 @@ const detailed = [
   {
     title: 'CCTV Camera Installation & Service',
     tag: 'Visibility. Security. Peace of mind.',
-    img: 'https://images.unsplash.com/photo-1558002038-1055907df827?w=900&q=80',
+    img: '/assets/services/cctv-installation.jpg',
     desc: 'Professional surveillance solutions for homes, shops, offices, warehouses and societies. HD/4K clarity, day & night protection.',
     features: ['Indoor dome & bullet cameras','Outdoor weatherproof IP66','Night vision & IR','Remote mobile monitoring','HD/4K recording','Professional installation & AMC'],
     ideal: 'Homes, offices, retail, godowns, societies, factories'
@@ -14,7 +14,7 @@ const detailed = [
   {
     title: 'IP Camera & NVR Solutions',
     tag: 'Intelligent IP ecosystems',
-    img: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=900&q=80',
+    img: '/assets/services/ip-nvr.jpg',
     desc: 'Future-ready IP surveillance with PoE, AI analytics and scalable NVR architecture — from 4CH to 64CH.',
     features: ['PoE IP cameras','4CH–64CH NVR with H.265+','AI motion & intrusion alerts','Cloud & remote access','ANPR & face detection ready'],
     ideal: 'Enterprises, large residences, retail chains'
@@ -38,7 +38,7 @@ const detailed = [
   {
     title: 'Access Control & Biometric',
     tag: 'Control who enters — with precision',
-    img: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=900&q=80',
+    img: '/assets/services/biometric.jpg',
     desc: 'Fingerprint, face and card-based systems for doors, gates, lifts and attendance.',
     features: ['Fingerprint / Face / Card','Door & gate automation','Lift access control','Attendance & payroll','Cloud reports'],
     ideal: 'Offices, factories, societies, gyms'
@@ -46,7 +46,7 @@ const detailed = [
   {
     title: 'Home & Office Automation',
     tag: 'Smarter spaces, every day',
-    img: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=900&q=80',
+    img: '/assets/services/automation.jpg',
     desc: 'Zigbee / Wi-Fi automation for lighting, curtains, AC, security & scenes — app & voice controlled.',
     features: ['Smart lighting & dimming','Curtain / blinds automation','Climate & AC control','Scene & schedule','Alexa / Google voice'],
     ideal: 'Premium homes, offices, showrooms'
