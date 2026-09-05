@@ -22,7 +22,7 @@ const detailed = [
   {
     title: 'Networking & Wi-Fi Solutions',
     tag: 'Enterprise-grade connectivity',
-    img: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=900&q=80',
+    img: '/assets/services/networking.jpg',
     desc: 'Structured cabling, racks, switches, firewalls and high-performance Wi-Fi — for seamless, secure connectivity.',
     features: ['Structured cabling','Rack & switch setup','Mesh & enterprise APs','Outdoor point-to-point','Firewall & security'],
     ideal: 'Offices, warehouses, campuses, homes'
@@ -30,7 +30,7 @@ const detailed = [
   {
     title: 'Video Door Phone',
     tag: 'See. Speak. Secure.',
-    img: 'https://images.unsplash.com/photo-1558000143-a42f1ea4d0d3?w=900&q=80',
+    img: '/assets/services/video-door-phone.jpg',
     desc: 'HD video door phones with intercom, door lock integration and smartphone connectivity.',
     features: ['7” HD display','Mobile app & Wi-Fi','Door lock integration','Multi-flat support','Night vision'],
     ideal: 'Apartments, villas, offices'
