@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy-950: #060A14;
+  --color-navy-900: #0A1020;
+  --color-navy-800: #0F1A33;
+  --color-navy-700: #162447;
+  --color-brand-500: #2563EB;
+  --color-brand-400: #3B82F6;
+  --color-brand-300: #60A5FA;
+}
+
+* {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #060A14;
+  color: #E2E8F0;
+  overflow-x: hidden;
+}
+
+/* hide scrollbar but keep functionality */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #060A14; }
+::-webkit-scrollbar-thumb { background: #1E3A5F; border-radius: 999px; }
+
+/* utility */
+.glass {
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(148,163,184,0.1);
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #60A5FA 0%, #3B82F6 50%, #2563EB 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.grid-pattern {
+  background-image:
+    linear-gradient(rgba(59,130,246,0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(59,130,246,0.06) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
